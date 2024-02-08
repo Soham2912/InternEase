@@ -6,5 +6,41 @@
 }
 
 body{
-    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: seagreen;
+
+}
+
+.container{
+    position: relative;
+    width: 400px;
+    height: 555px;
+    background: purple;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.searchbox{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+.searchbox input{
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
 }
